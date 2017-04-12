@@ -1,0 +1,53 @@
+for ( a = 0; a < largo; a++ )
+    {
+        for ( b = 0; b < largo; b++ )
+        {
+            for ( c = 0; c < largo; c++ )
+            {
+                for ( d = 0; d < largo; d++ )
+                {
+                    for ( e = 0; e < largo; e++ )
+                    {
+                        for ( f = 0; f < largo; f++ )
+                        {
+                            for ( g = 0; g < largo; g++ )
+                            {
+                                for ( h = 0; h < largo; h++ )
+                                {
+                                    for ( i = 0; i < largo; i++ )
+                                    {
+                                        for ( j = 0; j < largo; j++ )
+                                        {
+                                            for ( k = 0; k < largo; k++ )
+                                            {
+                                                for ( l = 0; l < largo; l++ )
+                                                {
+                                                    if(validador1(entrada[a], entrada[b], entrada[c], entrada[d], entrada[e], entrada[f], entrada[g], entrada[h], entrada[i], entrada[j], entrada[k], entrada[l])==0 && validador2(entrada[a], entrada[l])==0 && validador3(entrada[a], entrada[b], entrada[c], entrada[d], entrada[e], entrada[f], entrada[g], entrada[h], entrada[i], entrada[j], entrada[k], entrada[l])==0)
+                                                    {
+                                                        fp = fopen ( "salida.out", "a" );
+                                                        sprintf(str, "%d", entrada[a]);
+                                                        fprintf(fp, "%s", str);
+                                                        sprintf(str, "%d", entrada[b]);
+                                                        fprintf(fp, "%s", str);
+                                                        sprintf(str, "%d", entrada[c]);
+                                                        fprintf(fp, "%s", str);
+                                                        sprintf(str, "%d", entrada[d]);
+                                                        fprintf(fp, "%s", str);
+                                                        sprintf(str, "%d", entrada[e]);
+                                                        fprintf(fp, "%s", str);
+                                                        sprintf(str, "%d", entrada[f]);
+                                                        fprintf(fp, "%s", str);
+                                                        sprintf(str, "%d", entrada[g]);
+                                                        fprintf(fp, "%s", str);
+                                                        sprintf(str, "%d", entrada[h]);
+                                                        fprintf(fp, "%s", str);
+                                                        sprintf(str, "%d", entrada[i]);
+                                                        fprintf(fp, "%s", str);
+                                                        sprintf(str, "%d", entrada[j]);
+                                                        fprintf(fp, "%s", str);
+                                                        sprintf(str, "%d", entrada[k]);
+                                                        fprintf(fp, "%s", str);
+                                                        sprintf(str, "%d", entrada[l]);
+                                                        fprintf(fp, "%s", str);
+                                                        fprintf(fp, "\n");
+                                                        fclose ( fp );
